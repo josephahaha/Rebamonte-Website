@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    
+    body{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, maroon, red, skyblue, black);
+        background-size: 300% 300%;
+        animation: color 12s ease-in-out infinite;
+    }
+        
+    @keyframes color {
+        0% {
+            background-position: 0 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0 50%;
+        }
+    }
+
+
+
+    header {
+        text-align: center;
+    }    
+    h1 {
+        font-family: stencil;
+        text-shadow: 5px 10px 8px black;
+        font-size: 50px;
+        color: white;
+    }
+    
+    .opening {
+        width: 600px;
+        height: 330px;
+        margin-left: 28%;
+        margin-top: 10px;
+        box-shadow: 0px 0px 20px 3px white;
+        margin-bottom: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        margin-bottom: 100px;
+    }
+    .LMC {
+        margin: 20px;
+        border: 5px solid black;
+        background: linear-gradient(to left, maroon, black);
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .EXPERIENCE {
+        margin: 20px;
+        border: 5px solid black;
+        background: linear-gradient(to left, maroon, black);
+        padding: 20px;
+        border-radius: 5px;
+    }
+    h2 {
+        font-family: Sitka Heading Semibold;
+        color: white;
+        text-decoration: underline;
+        text-align: center;
+    }
+    p {
+        text-indent: 50px;
+        font-family: Sitka Subheading;
+        font-size: 17px;
+        color: white;
+        margin: 30px;
+        margin-bottom: 50px;
+    }
+
+    a {
+        border: 1px solid black;
+        font-weight: 500;
+        padding: 12px 20px;
+        background: #efefef;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .4s;
+        margin-left: 45%;
+        top: 50px;
+    }
+    a:hover {
+        background: rgb(0, 201, 255);
+        color: rgb(255, 255, 255);
+    }
